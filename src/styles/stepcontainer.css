@@ -1,0 +1,35 @@
+.step-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .step-container .step{
+    background:#fff;
+    margin:1rem;
+    padding:2rem;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.9);
+    text-align: center;
+    flex:1 1 30rem;
+  }
+  
+  .step-container .step span{
+    font-size: 7rem;
+    color:var(--pink);
+    font-weight: bolder;
+  }
+  
+  .step-container .step h3{
+    font-size: 3rem;
+    color:var(--black);
+  }
+  
+  .step-container .step p{
+    font-size: 1.5rem;
+    color:#666;
+    padding:1rem 0;
+  }
+  
+  

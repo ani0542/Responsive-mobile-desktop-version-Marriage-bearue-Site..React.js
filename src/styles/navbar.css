@@ -1,0 +1,26 @@
+header{ 
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 10000;
+    background: var(--pink);
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header .logo{
+    font-size: 2.5rem;
+    color:#fff;
+    font-weight: bolder;
+  }
+  
+  header .navbar a{
+    color:#fff;
+    font-size: 2rem;
+    margin-left: 2rem;
+  }
+  
+  header .navbar a:hover{
+    color:var(--black);
+  }

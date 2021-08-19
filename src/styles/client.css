@@ -1,0 +1,38 @@
+.clients .row{
+    display: flex;
+  }
+  
+  .clients .row .divider{
+    padding:0 1rem;
+  }
+  
+  .clients .row .box-container .box img{
+    height: 30rem;
+    width:100%;
+    object-fit: cover;
+    border-radius: .5rem;
+    border:.2rem solid #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.9);
+  }
+  
+  .clients .row .box-container .box .info{
+    padding:2rem 0;
+  }
+  
+  .clients .row .box-container .box .info h3{
+    font-size: 2.5rem;
+    color:#fff;
+  }
+  
+  .clients .row .box-container .box .info p{
+    font-size: 1.7rem;
+    color:#aaa;
+    padding:1rem 0;
+    font-style: italic;
+  }
+  
+  .clients .row .box-container .box .info p i{
+    color:var(--pink);
+    padding:0 .5rem;
+  }
+  

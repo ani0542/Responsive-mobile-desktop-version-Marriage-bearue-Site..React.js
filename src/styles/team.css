@@ -1,0 +1,60 @@
+.team .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .team .box-container .box{
+    margin:1rem;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.9);
+    background:#fff url(../assets/card-bg.png) no-repeat;
+    padding:4.7rem 2rem;
+    text-align: center;
+    background-size: cover;
+    flex:1 1 33rem;
+  }
+  
+  .team .box-container .box img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 15rem;
+    width:15rem;
+    padding:1rem;
+  }
+  
+  .team .box-container .box h3{
+    font-size: 2.5rem;
+    color:var(--black);
+  }
+  
+  .team .box-container .box span{
+    font-size: 2rem;
+    color:var(--pink);
+  }
+  
+  .team .box-container .box p{
+    font-size: 1.5rem;
+    color:#333;
+    padding:1rem 0;
+  }
+  
+  .team .box-container .box .share{
+    padding:1rem 0;
+  }
+  
+  .team .box-container .box .share a{
+    height: 4rem;
+    width:4rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    color:var(--black);
+    background:#eee;
+  }
+  
+  .team .box-container .box .share a:hover{
+    color:#fff;
+    background: var(--pink);
+  }
+  

@@ -1,0 +1,43 @@
+.blog .box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .blog .box-container .box{
+    background:#fff;
+    margin:1rem;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.9);
+    overflow: hidden;
+    flex:1 1 30rem;
+  }
+  
+  .blog .box-container .box img{
+    height:25rem;
+    width:100%;
+    object-fit: cover;
+  }
+  
+  .blog .box-container .box .info{
+    padding:2rem;
+  }
+  
+  .blog .box-container .box .info h3{
+    color:var(--black);
+    font-size: 2.5rem;
+  }
+  
+  .blog .box-container .box .info h3 span{
+    color:var(--pink);
+    font-weight: bolder;
+  }
+  
+  .blog .box-container .box .info p{
+    color: #333;;
+    font-size: 1.5rem;
+    padding:1rem 0;
+  }
+  
+  
